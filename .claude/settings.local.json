@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m venv venv)",
+      "Bash(python3 -m venv venv)",
+      "Bash(/c/Users/24326/AppData/Local/Microsoft/WindowsApps/python3 *)",
+      "Bash(where python *)",
+      "Bash(where python3 *)",
+      "Bash(where py *)",
+      "Bash(D:/JetBrains/python.exe *)",
+      "Bash(pkill -f \"python app.py\")",
+      "Bash(curl -s http://localhost:5000/api/categories)",
+      "Bash(curl -s http://localhost:5001/api/categories)",
+      "Bash(curl -s http://localhost:5001/)",
+      "Bash(\"D:/一面千识/4/venv/Scripts/python.exe\" app.py)",
+      "Bash(D:/一面千识/4/venv/Scripts/python.exe -c ' *)",
+      "Bash(taskkill //F //IM python.exe)",
+      "Bash(curl -s http://localhost:8080)",
+      "Bash(\"D:/一面千识/4/venv/Scripts/python.exe\" init_data.py)",
+      "Bash(curl -s http://localhost:5001/api/jobs)",
+      "Bash(curl -s -X POST http://localhost:5001/api/auth/login -H 'Content-Type: application/json' --data-binary '{\"username\":\"zhangsan\",\"password\":\"123456\"}')",
+      "Bash(curl -s \"http://localhost:5001/api/jobs?per_page=3\")"
+    ]
+  }
+}
